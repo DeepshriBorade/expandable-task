@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundle & Save</title>
+    <link rel="stylesheet" href="expandableStyles.css">
+<body>
+
+    <div class="container">
+        <h2>Bundle & Save</h2>
+
+        <!-- Box 1 -->
+        <div class="bundle">
+            <label class="bundle-option">
+                <input type="radio" name="bundle" onclick="expandBox(1)">
+                <div class="bundle-info">
+                    <p class="pair">1 Pair</p>
+                    <p class="price">DKK 195.00</p>
+                    <span class="discount">50% OFF</span>
+                </div>
+            </label>
+            <div class="expandable-content" id="box-1">
+                <div class="selection">
+                    <label>Select Color:</label>
+                    <select>
+                        <option value="">Select</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </select>
+                    <label>Select Size:</label>
+                    <select>
+                        <option value="">Select</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="bundle">
+            <label class="bundle-option">
+                <input type="radio" name="bundle" onclick="expandBox(2)">
+                <div class="bundle-info">
+                    <p class="pair">2 Pairs</p>
+                    <p class="price">DKK 345.00</p>
+                    <span class="discount">40% OFF</span>
+                </div>
+            </label>
+            <div class="expandable-content" id="box-2">
+                <div class="selection">
+                    <label>Select Color:</label>
+                    <select>
+                        <option value="">Select</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </select>
+                    <label>Select Size:</label>
+                    <select>
+                        <option value="">Select</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="bundle">
+            <label class="bundle-option">
+                <input type="radio" name="bundle" onclick="expandBox(3)">
+                <div class="bundle-info">
+                    <p class="pair">3 Pairs</p>
+                    <p class="price">DKK 528.00</p>
+                    <span class="discount">60% OFF</span>
+                </div>
+            </label>
+            <div class="expandable-content" id="box-3">
+                <div class="selection">
+                    <label>Select Color:</label>
+                    <select>
+                        <option value="">Select</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </select>
+                    <label>Select Size:</label>
+                    <select>
+                        <option value="">Select</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+
+    <script src="expandableScript.js"></script>
+</body>
+</html>
